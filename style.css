@@ -56,5 +56,18 @@ body{
 }
 
 @media all and (min-width:768px){
-    
+    .headercontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+
+    .logo{
+        margin-top:0px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
+
 }
