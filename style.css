@@ -34,7 +34,7 @@ body{
 }
 
 .maincontent{
-    height: 100vw;
+    height: 100vh;
     background-color: #3CDBC0;
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
@@ -72,6 +72,10 @@ body{
     }
     .nav{
         margin-right: 30px;
+    }
+
+    .content{
+        font-size: 40px;
     }
 
 }
