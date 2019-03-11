@@ -37,9 +37,24 @@ body{
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
+    font-weight: bold;
     margin-top:13px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+.content{
+   
 
+}
 .content p{
     margin-top:0px;
+    margin-bottom:0px;
+    padding-left: 82.5px;
+    padding-right: 82.5px;
+    text-align: center;
+}
+
+@media all and (min-width:768px){
+    
 }
