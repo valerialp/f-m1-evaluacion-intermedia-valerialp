@@ -1,86 +1,85 @@
 body{
     margin:0px;
+    padding:0px;
+    height: 100vh;
 }
 
-header{
-    position:fixed;
-}
-.headercontent{
+.container__header{
+    width: 100%;
+    padding-bottom: 13px;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Rubik', sans-serif;
-    font-size:16px;
-    text-transform: uppercase ;
+    position:fixed;
 }
-.logo{
+.link__logo{
     width: 155px;
     max-width: 155px;
     margin-top:10px;
     margin-bottom:10px;
 }
-.logo img{
-    width: 100%;
-    height: 100%;
-}
-.nav{
-    width: 155px;
-}
+
 .nav__list{
+    width: 155px;
     list-style: none;
-    color:#4a4a4a;
     padding: 0px;
     margin:0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center
 }
 .nav__links{
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-size:16px;
+    text-transform: uppercase;
     text-decoration: none;
+    color:#4a4a4a;
 }
 
 .maincontent{
     height: 100vh;
     background-color: #3CDBC0;
+    display: flex;
+    justify-content: center;
+    align-items: center  
+}
+
+.main__title{
+    margin-top:0px;
+    margin-bottom:0px;
+    max-width: 200px;
     color: #FFFFFF;
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    margin-top:13px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content p{
-    margin-top:0px;
-    margin-bottom:0px;
-    padding-left: 82.5px;
-    padding-right: 82.5px;
+    text-transform: capitalize;
     text-align: center;
-    max-width: 155px;
+    position: absolute;
 }
 
 @media all and (min-width:768px){
-    .headercontent{
+    .container__header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom:20px;
-        margin-top:20px;
+        padding-bottom:20px;
+        padding-top:20px;
     }
 
-    .logo{
+    .link__logo{
         width: 155px;
         margin-top:0px;
         margin-bottom: 0px;
         margin-left: 30px;
     }
-    .nav{
+    .nav__list{
         margin-right: 30px;
     }
 
-    .content{
+    .main__title{
         font-size: 40px;
     }
 
