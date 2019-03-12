@@ -2,6 +2,9 @@ body{
     margin:0px;
 }
 
+header{
+    position:fixed;
+}
 .headercontent{
     display: flex;
     flex-direction: column;
@@ -23,7 +26,7 @@ body{
 .nav{
     width: 155px;
 }
-.navList{
+.nav__list{
     list-style: none;
     color:#4a4a4a;
     padding: 0px;
@@ -31,6 +34,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center
+}
+.nav__links{
+    text-decoration: none;
 }
 
 .maincontent{
